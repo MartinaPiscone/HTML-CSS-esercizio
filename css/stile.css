@@ -1,0 +1,166 @@
+body {
+    background-color:#232323;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin:0;
+    padding:0;
+
+}
+
+header {
+    max-width: 1600px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    background-color: aliceblue;
+}
+
+header p {
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: aliceblue;
+    color: #232323;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 50px;
+    background-color: aliceblue;
+    color: #232323;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+    color:#232323;
+}
+
+section.prima {
+    display: grid;
+    max-width: 1600px;
+    margin: auto;
+    padding: 200px 0px, 100px, 0px;
+}
+
+section.prima h1 {
+    font-family: "Marcellus", serif;
+    font-size: 260px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+section.prima h2 {
+    color: #232323;
+    font-size: 65px;
+    text-align: left;
+    font-weight: normal;
+    padding: 20px 60px 360px 60px;
+    background-color: aliceblue;
+}
+
+section.seconda {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+section.seconda h3 {
+    font-size: 47px;
+    text-align: right;
+    padding-left: 400px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+section.seconda p {
+    font-size: 25px;
+    padding: 0px 250px 30px 50px;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    padding-bottom: 40px;
+}
+
+section.terza {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+section.terza h4 {
+    font-size: 47px;
+    text-align: right;
+    padding-left: 480px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+section.terza p {
+    font-size: 25px;
+    padding: 0px 250px 30px 50px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+    padding-bottom: 40px;
+}
+
+section.quarta {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+section.quarta h5 {
+    font-size: 47px;
+    text-align: right;
+    padding-left: 500px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+section.quarta p {
+    font-size: 25px;
+    padding: 0px 250px 30px 50px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+}
+
+footer {
+    max-width: 1600px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: aliceblue;
+}
+
+.info nav ul {
+    display: flex;
+    list-style-type: none;
+    gap:300px;
+    
+}
+
+.info nav ul a {
+    text-decoration: none;
+    color:#232323;
+    margin:auto;
+}
+
+ nav ul a:hover {
+    text-decoration: underline;
+    color:#232323;
+}
